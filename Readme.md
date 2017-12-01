@@ -9,6 +9,12 @@ Android and iOS get automatic icon scaling (via their resource naming xhdpi and 
 
 UWP doesn't support scaling of in app icons yet (only splashscreen and logo).
 
+# Changelog
+
+**v1.0.0**
+
+* Initial version
+
 # Motivation
 
 Reduce the number of asset files stored  in the git repository
