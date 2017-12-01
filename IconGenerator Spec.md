@@ -2,13 +2,15 @@
 
 Xamarin provides no way of automatically generating all icons in their various sizes and directories.
 
-Some external tools try to fix this but they are incomplete (no UWP support) or require Xamarin studio.
+Some external tools try to fix this but they are incomplete (no UWP support) or require Xamarin studio and haven't been updated in a while.
 
 This generator acts as a standalone executable that can generate all icons at once.
 
+For now it is Windows only (.Net Core does not yet support image resizing).
+
 # Basics
 
-There are three types of input files:
+There are usually three types of input files for any app:
 
 * App icon
 * Splashscreen icon
